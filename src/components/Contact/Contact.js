@@ -47,6 +47,7 @@ export default class Contact extends Component {
                     swal("Email Sent","Thank you for the mail, we'll get back soon!!","success");     
                 }, (err) => {
                     swal("Error","Something went wrong!!","error"); 
+                    
                 });
         }
         catch (ex) {
