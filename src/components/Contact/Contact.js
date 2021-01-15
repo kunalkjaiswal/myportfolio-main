@@ -44,10 +44,16 @@ export default class Contact extends Component {
             };
             emailjs.send('service_1u2zdmg', 'template_hncri6r', templateParams, 'user_uiSc4o7rSSEQRO9FGdNlb')
                 .then((response) => {
-                    swal("Email Sent","Thank you for the mail, we'll get back soon!!","success");     
+                    this.setState({
+                        from_name: "",
+                        from_email: "",
+                        subject: "",
+                        message: ""
+                    });
+                    swal("Email Sent","Thank you for the mail, will get back soon!!","success");     
                 }, (err) => {
                     swal("Error","Something went wrong!!","error"); 
-                    
+
                 });
         }
         catch (ex) {
