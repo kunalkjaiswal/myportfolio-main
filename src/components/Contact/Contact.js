@@ -15,16 +15,22 @@ export default class Contact extends Component {
         }
     }
     validateInput = () => {
-        try {    
-            this.setState({ errorMsg: "" });
+        try {
+            this.setState({ errorMsg: "", disableButton: true});
             const _this = this.state;
             if (_this.userName === "" || _this.userEmail === "" || _this.subject === "" || _this.message === "") {
-                this.setState({ errorMsg: "All fields are mandatory!" });
+                this.setState({
+                    errorMsg: "All fields are mandatory!",
+                    disableButton: false
+                });
                 return;
             }
             let emailRegex = /\S+@\S+\.\S+/;
             if (!emailRegex.test(_this.userEmail)) {
-                this.setState({ errorMsg: "Please enter valid email." });
+                this.setState({
+                    errorMsg: "Please enter valid email.",
+                    disableButton: false
+                });
                 return;
             }
             this.sendEmail();
@@ -45,14 +51,15 @@ export default class Contact extends Component {
             emailjs.send('service_1u2zdmg', 'template_hncri6r', templateParams, 'user_uiSc4o7rSSEQRO9FGdNlb')
                 .then((response) => {
                     this.setState({
-                        from_name: "",
-                        from_email: "",
+                        userName: "",
+                        userEmail: "",
                         subject: "",
-                        message: ""
+                        message: "",
+                        disableButton: false
                     });
-                    swal("Email Sent","Thank you for the mail, will get back soon!!","success");     
+                    swal("Email Sent", "Thank you for the mail, will get back soon!!", "success");
                 }, (err) => {
-                    swal("Error","Something went wrong!!","error"); 
+                    swal("Error", "Something went wrong!!", "error");
 
                 });
         }

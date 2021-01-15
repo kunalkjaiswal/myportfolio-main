@@ -68,6 +68,36 @@
     font-weight: 700;
 }
 
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    background-color: #000 !important;
+    z-index: 1000;
+    padding: 10px 20px !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 14px;
+    font-family: Poppins !important;
+}
+.nav-link.active{
+    color:#ff8d4a !important;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0) !important;
+    border-color: rgb(0 0 0) !important;
+    outline: 0;
+}
+.collapse .nav-link{
+    padding-left: 20px !important;
+}
+.collapse.show .nav-link{
+    padding-left: 0 !important;
+}
 @keyframes glitch-anim {
     0% {
         clip: rect(85px,9999px,45px,0);
