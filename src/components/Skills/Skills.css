@@ -5,6 +5,15 @@
 #skills h4{
     color: #000;
 }
+.line-text h4 {
+    font-size: 22px;
+    position: relative;
+    left: 110px;
+    flex-basis: inherit;
+    margin: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
 .skill-tech, .tech{
     width: 100%;
     padding: 15px 30px;

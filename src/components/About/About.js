@@ -31,7 +31,7 @@ export default class About extends Component {
                         {this.state.social.map((acc,index) => {
                             return (
                                 <span className="social-acc" key={index}>
-                                    <a href={acc.url}><i className={acc.class}></i></a>
+                                    <a href={acc.url} target='_blank'><i className={acc.class}></i></a>
                                 </span>
                             )
                         })

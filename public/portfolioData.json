@@ -11,13 +11,18 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/kunalkjaiswal",
           "class": "fa fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fa fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/kunal-jaiswal-54425081/",
+          "class": "fa fa-linkedin-square"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/kunal565",
+          "class": "fa fa-facebook-square"
         }
       ]
     },
@@ -106,5 +111,11 @@
         "image":"images/mindtree.png",
         "imgClass":"mindtree-img"
       }
-    ]
+    ],
+    "contact":{
+      "phone":"+91-8653497134",
+      "email":"contact.kunal13@gmail.com",
+      "address1":"Thubrahalli, Whitefield",
+      "address2":"Bangalore, India"
+    }
   }
