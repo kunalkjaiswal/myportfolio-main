@@ -105,7 +105,7 @@ export default class Home extends Component {
                         />
                         <div className="columns download">
                             <p>
-                                <a href="/Resume.pdf" className="button"><i name="resume" className="fa fa-download"></i>Download Resume</a>
+                                <a href="/Resume.pdf" target="_blank" className="button"><i name="resume" className="fa fa-download"></i>Download Resume</a>
                             </p>
                         </div>
                     </div>
