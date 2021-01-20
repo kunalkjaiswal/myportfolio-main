@@ -1,0 +1,58 @@
+
+body { background: #0f0f0f; }
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #11ABB0; }
+
+
+.opaque { background-color: #000; }
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+
+/* fadein/fadeout effect for modal popup
+/* ------------------------------------------------------------------ */
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+   opacity: 0;
+   -webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+   transition: all 200ms ease-in-out;
+}
+/* content fadein */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+   opacity: 1;
+}
+/* content fadeout */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+   opacity: 0;
+}
