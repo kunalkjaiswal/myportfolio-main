@@ -9,8 +9,8 @@
     height: 100%;
     z-index: 0;
 }
-.content-text {
-    margin: 15% 0% 15% 30%;
+.home .content-text {
+    margin: 15% 0% 15% 22%;
     z-index: 1;
 }
 .line-text h4 {
@@ -367,7 +367,7 @@
 }
 
 @media (max-width: 500px){
-    .content-text {
+    .home .content-text {
         margin: 70% 0% 0% 10% !important;
     }
     .glitch {
