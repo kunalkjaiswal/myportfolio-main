@@ -4,7 +4,7 @@
       "jobTitle": "Web Developer"
     },
     "about":{
-      "title":"I'm Full Stack Web Developer @ MBRDI",
+      "title":"I'm Senior Software Engineer @ Air Asia",
       "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
       "hobbies":"In my spare time I like to explore new tech and Photoshop.",
       "pic":"images/profile-pic.jpg",
@@ -84,11 +84,22 @@
         }
       ]
     },
-    "experience":[      
+    "experience":[    
+      {
+        "title":"Senior Software Engineer",
+        "company":"Air Asia",
+        "date":"Sept'21 - Present",
+        "tech":["JavaScript","ReactJS","Redux","Hooks","Kubernetes"],
+        "work":["Build and maintain Air Asia hotel booking web app.",
+          "Build reusable web components using ReactJS."
+        ],
+        "image":"images/airasia.png",
+        "imgClass":"airasia-img"
+      },  
       {
         "title":"Senior Consultant",
         "company":"Mercedes Benz Research & Development India",
-        "date":"Feb'20 - Present",
+        "date":"Feb'20 - Sept'21",
         "tech":["JavaScript","ReactJS","C#",".Net Core","SQL","Azure"],
         "work":["Build system to store all product related information and display as per user requirement.",
           "Working with various Azure services to make system more reliable.",
