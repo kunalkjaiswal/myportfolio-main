@@ -1,10 +1,10 @@
 {
     "basicInfo": {
       "name": "Kunal Jaiswal",
-      "jobTitle": "Web Developer"
+      "jobTitle": "Consultant UI"
     },
     "about":{
-      "title":"I'm Senior Software Engineer @ Air Asia",
+      "title":"I'm UI Consultant @ Adobe",
       "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
       "hobbies":"In my spare time I like to explore new tech and Photoshop.",
       "pic":"images/profile-pic.jpg",
@@ -86,15 +86,15 @@
     },
     "experience":[    
       {
-        "title":"Senior Software Engineer",
-        "company":"Air Asia",
-        "date":"Sept'21 - Present",
-        "tech":["JavaScript","ReactJS","Redux","Hooks","Kubernetes"],
-        "work":["Build and maintain Air Asia hotel booking web app.",
-          "Build reusable web components using ReactJS."
+        "title":"Consultant- UI",
+        "company":"Adobe India",
+        "date":"Dec'21 - Present",
+        "tech":["JavaScript","VueJS","HTML/CSS","AEM"],
+        "work":["Build UI components for customized AEM application.",
+          "Design solution architecture and build components of different variations using style system."
         ],
-        "image":"images/airasia.png",
-        "imgClass":"airasia-img"
+        "image":"images/adobe.png",
+        "imgClass":"adobe-img"
       },  
       {
         "title":"Senior Consultant",
